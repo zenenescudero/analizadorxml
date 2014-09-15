@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Basic Express 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Lector XML Zenen", "Lector XML Zenen\Lector XML Zenen.vbproj", "{1B57A76F-9D8F-4721-AE4C-6FCC147F0D32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B57A76F-9D8F-4721-AE4C-6FCC147F0D32}.Debug|x86.ActiveCfg = Debug|x86
+		{1B57A76F-9D8F-4721-AE4C-6FCC147F0D32}.Debug|x86.Build.0 = Debug|x86
+		{1B57A76F-9D8F-4721-AE4C-6FCC147F0D32}.Release|x86.ActiveCfg = Release|x86
+		{1B57A76F-9D8F-4721-AE4C-6FCC147F0D32}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
