@@ -140,3 +140,41 @@ D:\ZENEN\DESARROLLOS\MERCADERIAS UTILERIAS\MIT 6 Y ZMMREPCON\Lector XML Zenen\Le
 D:\ZENEN\DESARROLLOS\MERCADERIAS UTILERIAS\MIT 6 Y ZMMREPCON\Lector XML Zenen\Lector XML Zenen\obj\x86\Debug\Mercaderias Utilerias CFDI.application
 D:\ZENEN\DESARROLLOS\MERCADERIAS UTILERIAS\MIT 6 Y ZMMREPCON\Lector XML Zenen\Lector XML Zenen\obj\x86\Debug\Lector_XML_Zenen.extraedatosxml.resources
 D:\ZENEN\DESARROLLOS\MERCADERIAS UTILERIAS\MIT 6 Y ZMMREPCON\Lector XML Zenen\Lector XML Zenen\obj\x86\Debug\Lector_XML_Zenen.Comparacionesxml.resources
+D:\ZENEN\DESARROLLOS\MERCADERIASUTILERIAS\MIR6_ZMMREPCON\LectorXMLZenen\Lector XML Zenen\bin\Debug\Mercaderias Utilerias CFDI.exe.config
+D:\ZENEN\DESARROLLOS\MERCADERIASUTILERIAS\MIR6_ZMMREPCON\LectorXMLZenen\Lector XML Zenen\bin\Debug\Mercaderias Utilerias CFDI.exe.manifest
+D:\ZENEN\DESARROLLOS\MERCADERIASUTILERIAS\MIR6_ZMMREPCON\LectorXMLZenen\Lector XML Zenen\bin\Debug\Mercaderias Utilerias CFDI.application
+D:\ZENEN\DESARROLLOS\MERCADERIASUTILERIAS\MIR6_ZMMREPCON\LectorXMLZenen\Lector XML Zenen\bin\Debug\Mercaderias Utilerias CFDI.exe
+D:\ZENEN\DESARROLLOS\MERCADERIASUTILERIAS\MIR6_ZMMREPCON\LectorXMLZenen\Lector XML Zenen\bin\Debug\Mercaderias Utilerias CFDI.pdb
+D:\ZENEN\DESARROLLOS\MERCADERIASUTILERIAS\MIR6_ZMMREPCON\LectorXMLZenen\Lector XML Zenen\bin\Debug\Mercaderias Utilerias CFDI.xml
+D:\ZENEN\DESARROLLOS\MERCADERIASUTILERIAS\MIR6_ZMMREPCON\LectorXMLZenen\Lector XML Zenen\bin\Debug\System.Data.dll
+D:\ZENEN\DESARROLLOS\MERCADERIASUTILERIAS\MIR6_ZMMREPCON\LectorXMLZenen\Lector XML Zenen\bin\Debug\System.Deployment.dll
+D:\ZENEN\DESARROLLOS\MERCADERIASUTILERIAS\MIR6_ZMMREPCON\LectorXMLZenen\Lector XML Zenen\bin\Debug\System.dll
+D:\ZENEN\DESARROLLOS\MERCADERIASUTILERIAS\MIR6_ZMMREPCON\LectorXMLZenen\Lector XML Zenen\bin\Debug\System.Drawing.dll
+D:\ZENEN\DESARROLLOS\MERCADERIASUTILERIAS\MIR6_ZMMREPCON\LectorXMLZenen\Lector XML Zenen\bin\Debug\System.Windows.Forms.dll
+D:\ZENEN\DESARROLLOS\MERCADERIASUTILERIAS\MIR6_ZMMREPCON\LectorXMLZenen\Lector XML Zenen\bin\Debug\System.Xml.dll
+D:\ZENEN\DESARROLLOS\MERCADERIASUTILERIAS\MIR6_ZMMREPCON\LectorXMLZenen\Lector XML Zenen\bin\Debug\System.Xml.Linq.dll
+D:\ZENEN\DESARROLLOS\MERCADERIASUTILERIAS\MIR6_ZMMREPCON\LectorXMLZenen\Lector XML Zenen\obj\x86\Debug\Lector XML Zenen.vbprojResolveAssemblyReference.cache
+D:\ZENEN\DESARROLLOS\MERCADERIASUTILERIAS\MIR6_ZMMREPCON\LectorXMLZenen\Lector XML Zenen\obj\x86\Debug\Lector_XML_Zenen.Acerca_de.resources
+D:\ZENEN\DESARROLLOS\MERCADERIASUTILERIAS\MIR6_ZMMREPCON\LectorXMLZenen\Lector XML Zenen\obj\x86\Debug\Lector_XML_Zenen.Comparaciones.resources
+D:\ZENEN\DESARROLLOS\MERCADERIASUTILERIAS\MIR6_ZMMREPCON\LectorXMLZenen\Lector XML Zenen\obj\x86\Debug\Lector_XML_Zenen.consulta.resources
+D:\ZENEN\DESARROLLOS\MERCADERIASUTILERIAS\MIR6_ZMMREPCON\LectorXMLZenen\Lector XML Zenen\obj\x86\Debug\Lector_XML_Zenen.contactos.resources
+D:\ZENEN\DESARROLLOS\MERCADERIASUTILERIAS\MIR6_ZMMREPCON\LectorXMLZenen\Lector XML Zenen\obj\x86\Debug\Lector_XML_Zenen.contactosnuevoeditar.resources
+D:\ZENEN\DESARROLLOS\MERCADERIASUTILERIAS\MIR6_ZMMREPCON\LectorXMLZenen\Lector XML Zenen\obj\x86\Debug\Lector_XML_Zenen.contactosmasivo.resources
+D:\ZENEN\DESARROLLOS\MERCADERIASUTILERIAS\MIR6_ZMMREPCON\LectorXMLZenen\Lector XML Zenen\obj\x86\Debug\Lector_XML_Zenen.Comparacionesxml.resources
+D:\ZENEN\DESARROLLOS\MERCADERIASUTILERIAS\MIR6_ZMMREPCON\LectorXMLZenen\Lector XML Zenen\obj\x86\Debug\Lector_XML_Zenen.extraedatosxml.resources
+D:\ZENEN\DESARROLLOS\MERCADERIASUTILERIAS\MIR6_ZMMREPCON\LectorXMLZenen\Lector XML Zenen\obj\x86\Debug\Lector_XML_Zenen.editarproveedor.resources
+D:\ZENEN\DESARROLLOS\MERCADERIASUTILERIAS\MIR6_ZMMREPCON\LectorXMLZenen\Lector XML Zenen\obj\x86\Debug\Lector_XML_Zenen.proveedoresmasivo.resources
+D:\ZENEN\DESARROLLOS\MERCADERIASUTILERIAS\MIR6_ZMMREPCON\LectorXMLZenen\Lector XML Zenen\obj\x86\Debug\Lector_XML_Zenen.mir6masivo.resources
+D:\ZENEN\DESARROLLOS\MERCADERIASUTILERIAS\MIR6_ZMMREPCON\LectorXMLZenen\Lector XML Zenen\obj\x86\Debug\Lector_XML_Zenen.nuevoproveedores.resources
+D:\ZENEN\DESARROLLOS\MERCADERIASUTILERIAS\MIR6_ZMMREPCON\LectorXMLZenen\Lector XML Zenen\obj\x86\Debug\Lector_XML_Zenen.proveedores.resources
+D:\ZENEN\DESARROLLOS\MERCADERIASUTILERIAS\MIR6_ZMMREPCON\LectorXMLZenen\Lector XML Zenen\obj\x86\Debug\Lector_XML_Zenen.zmmmasivo.resources
+D:\ZENEN\DESARROLLOS\MERCADERIASUTILERIAS\MIR6_ZMMREPCON\LectorXMLZenen\Lector XML Zenen\obj\x86\Debug\Lector_XML_Zenen.leerxml.resources
+D:\ZENEN\DESARROLLOS\MERCADERIASUTILERIAS\MIR6_ZMMREPCON\LectorXMLZenen\Lector XML Zenen\obj\x86\Debug\Lector_XML_Zenen.Resources.resources
+D:\ZENEN\DESARROLLOS\MERCADERIASUTILERIAS\MIR6_ZMMREPCON\LectorXMLZenen\Lector XML Zenen\obj\x86\Debug\Lector_XML_Zenen.OrigenDatps.resources
+D:\ZENEN\DESARROLLOS\MERCADERIASUTILERIAS\MIR6_ZMMREPCON\LectorXMLZenen\Lector XML Zenen\obj\x86\Debug\Lector_XML_Zenen.Principal.resources
+D:\ZENEN\DESARROLLOS\MERCADERIASUTILERIAS\MIR6_ZMMREPCON\LectorXMLZenen\Lector XML Zenen\obj\x86\Debug\Lector XML Zenen.vbproj.GenerateResource.Cache
+D:\ZENEN\DESARROLLOS\MERCADERIASUTILERIAS\MIR6_ZMMREPCON\LectorXMLZenen\Lector XML Zenen\obj\x86\Debug\Mercaderias Utilerias CFDI.exe.manifest
+D:\ZENEN\DESARROLLOS\MERCADERIASUTILERIAS\MIR6_ZMMREPCON\LectorXMLZenen\Lector XML Zenen\obj\x86\Debug\Mercaderias Utilerias CFDI.application
+D:\ZENEN\DESARROLLOS\MERCADERIASUTILERIAS\MIR6_ZMMREPCON\LectorXMLZenen\Lector XML Zenen\obj\x86\Debug\Mercaderias Utilerias CFDI.exe
+D:\ZENEN\DESARROLLOS\MERCADERIASUTILERIAS\MIR6_ZMMREPCON\LectorXMLZenen\Lector XML Zenen\obj\x86\Debug\Mercaderias Utilerias CFDI.xml
+D:\ZENEN\DESARROLLOS\MERCADERIASUTILERIAS\MIR6_ZMMREPCON\LectorXMLZenen\Lector XML Zenen\obj\x86\Debug\Mercaderias Utilerias CFDI.pdb

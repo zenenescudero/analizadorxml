@@ -132,6 +132,8 @@ Public Class extraedatosxml
         Dim xNodo As XmlNodeList
         Dim xAtt As XmlElement
         Dim rfc As String = ""
+        Dim rfc_receptor As String = ""
+        Dim rs_receptor As String = ""
         Dim serie As String = ""
         Dim folio As String = ""
         Dim fecha As String = ""
@@ -153,6 +155,14 @@ Public Class extraedatosxml
                 For Each xAtt In xNodo
                     rfc = VarXml(xAtt, "rfc")
                     razon = VarXml(xAtt, "nombre")
+                Next
+            End If
+
+            xNodo = xDoc.GetElementsByTagName("cfdi:Receptor")
+            If xNodo.Count > 0 Then
+                For Each xAtt In xNodo
+                    rfc_receptor = VarXml(xAtt, "rfc")
+                    rs_receptor = VarXml(xAtt, "nombre")
                 Next
             End If
 
@@ -241,10 +251,10 @@ Public Class extraedatosxml
                 End Select
             Loop
             'FINAL PARTE EXTRAE ADDENDA
-            griddatosxml.Rows.Add(rfc, razon, folio, serie, fecha, strXML, versioncfdi, uuidCFDI, numeroaprobacion, total, foliorecepcion, ordencompra)
+            griddatosxml.Rows.Add(rfc, razon, rfc_receptor, rs_receptor, folio, serie, fecha, strXML, versioncfdi, uuidCFDI, numeroaprobacion, total, foliorecepcion, ordencompra)
             Return True
         Catch ex As Exception
-            griddatosxml.Rows.Add(rfc, razon, folio, serie, fecha, strXML, "Error: " & ex.Message, uuidCFDI, numeroaprobacion, total, foliorecepcion, ordencompra)
+            griddatosxml.Rows.Add(rfc, razon, rfc_receptor, rs_receptor, folio, serie, fecha, strXML, "Error: " & ex.Message, uuidCFDI, numeroaprobacion, total, foliorecepcion, ordencompra)
             Return False
         End Try
 

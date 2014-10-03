@@ -43,8 +43,18 @@ Partial Class extraedatosxml
         Me.Button7 = New System.Windows.Forms.Button()
         Me.TabPage3 = New System.Windows.Forms.TabPage()
         Me.griddatosxml = New System.Windows.Forms.DataGridView()
+        Me.TabControl1 = New System.Windows.Forms.TabControl()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.fecha1 = New System.Windows.Forms.DateTimePicker()
+        Me.fecha2 = New System.Windows.Forms.DateTimePicker()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.filtrofecha = New System.Windows.Forms.CheckBox()
         Me.DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.rfc_receptor = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.rs_receptor = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.foliog = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.serieg = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.fechag = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -55,14 +65,6 @@ Partial Class extraedatosxml
         Me.Importe1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.FolioRecepcion = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.OrdenCompra = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.TabControl1 = New System.Windows.Forms.TabControl()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.fecha1 = New System.Windows.Forms.DateTimePicker()
-        Me.fecha2 = New System.Windows.Forms.DateTimePicker()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.filtrofecha = New System.Windows.Forms.CheckBox()
         Me.TabPage3.SuspendLayout()
         CType(Me.griddatosxml, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabControl1.SuspendLayout()
@@ -209,7 +211,7 @@ Partial Class extraedatosxml
         Me.griddatosxml.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
         Me.griddatosxml.BackgroundColor = System.Drawing.Color.Linen
         Me.griddatosxml.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.griddatosxml.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn1, Me.DataGridViewTextBoxColumn2, Me.foliog, Me.serieg, Me.fechag, Me.cadenaarchivo, Me.version, Me.UUID, Me.noAprovacion, Me.Importe1, Me.FolioRecepcion, Me.OrdenCompra})
+        Me.griddatosxml.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn1, Me.DataGridViewTextBoxColumn2, Me.rfc_receptor, Me.rs_receptor, Me.foliog, Me.serieg, Me.fechag, Me.cadenaarchivo, Me.version, Me.UUID, Me.noAprovacion, Me.Importe1, Me.FolioRecepcion, Me.OrdenCompra})
         Me.griddatosxml.Dock = System.Windows.Forms.DockStyle.Fill
         Me.griddatosxml.GridColor = System.Drawing.SystemColors.Control
         Me.griddatosxml.Location = New System.Drawing.Point(3, 3)
@@ -224,83 +226,6 @@ Partial Class extraedatosxml
         Me.griddatosxml.Size = New System.Drawing.Size(805, 213)
         Me.griddatosxml.TabIndex = 9
         Me.griddatosxml.TabStop = False
-        '
-        'DataGridViewTextBoxColumn1
-        '
-        Me.DataGridViewTextBoxColumn1.HeaderText = "rfc"
-        Me.DataGridViewTextBoxColumn1.Name = "DataGridViewTextBoxColumn1"
-        Me.DataGridViewTextBoxColumn1.ReadOnly = True
-        '
-        'DataGridViewTextBoxColumn2
-        '
-        Me.DataGridViewTextBoxColumn2.HeaderText = "razon"
-        Me.DataGridViewTextBoxColumn2.Name = "DataGridViewTextBoxColumn2"
-        Me.DataGridViewTextBoxColumn2.ReadOnly = True
-        '
-        'foliog
-        '
-        Me.foliog.HeaderText = "folio"
-        Me.foliog.Name = "foliog"
-        Me.foliog.ReadOnly = True
-        Me.foliog.Width = 60
-        '
-        'serieg
-        '
-        Me.serieg.HeaderText = "serie"
-        Me.serieg.Name = "serieg"
-        Me.serieg.ReadOnly = True
-        Me.serieg.Width = 50
-        '
-        'fechag
-        '
-        Me.fechag.HeaderText = "Fecha"
-        Me.fechag.Name = "fechag"
-        Me.fechag.ReadOnly = True
-        '
-        'cadenaarchivo
-        '
-        Me.cadenaarchivo.HeaderText = "Archivo Original"
-        Me.cadenaarchivo.Name = "cadenaarchivo"
-        Me.cadenaarchivo.ReadOnly = True
-        Me.cadenaarchivo.Width = 200
-        '
-        'version
-        '
-        Me.version.HeaderText = "version"
-        Me.version.Name = "version"
-        Me.version.ReadOnly = True
-        '
-        'UUID
-        '
-        Me.UUID.HeaderText = "UUID"
-        Me.UUID.Name = "UUID"
-        Me.UUID.ReadOnly = True
-        '
-        'noAprovacion
-        '
-        Me.noAprovacion.HeaderText = "noAprovacion"
-        Me.noAprovacion.Name = "noAprovacion"
-        Me.noAprovacion.ReadOnly = True
-        '
-        'Importe1
-        '
-        Me.Importe1.HeaderText = "Importe"
-        Me.Importe1.Name = "Importe1"
-        Me.Importe1.ReadOnly = True
-        '
-        'FolioRecepcion
-        '
-        Me.FolioRecepcion.HeaderText = "Folio Recepcion"
-        Me.FolioRecepcion.Name = "FolioRecepcion"
-        Me.FolioRecepcion.ReadOnly = True
-        Me.FolioRecepcion.Width = 150
-        '
-        'OrdenCompra
-        '
-        Me.OrdenCompra.HeaderText = "Orden de Compra"
-        Me.OrdenCompra.Name = "OrdenCompra"
-        Me.OrdenCompra.ReadOnly = True
-        Me.OrdenCompra.Width = 180
         '
         'TabControl1
         '
@@ -382,6 +307,95 @@ Partial Class extraedatosxml
         Me.filtrofecha.Text = "Fechas"
         Me.filtrofecha.UseVisualStyleBackColor = True
         '
+        'DataGridViewTextBoxColumn1
+        '
+        Me.DataGridViewTextBoxColumn1.HeaderText = "rfc"
+        Me.DataGridViewTextBoxColumn1.Name = "DataGridViewTextBoxColumn1"
+        Me.DataGridViewTextBoxColumn1.ReadOnly = True
+        '
+        'DataGridViewTextBoxColumn2
+        '
+        Me.DataGridViewTextBoxColumn2.HeaderText = "razon"
+        Me.DataGridViewTextBoxColumn2.Name = "DataGridViewTextBoxColumn2"
+        Me.DataGridViewTextBoxColumn2.ReadOnly = True
+        '
+        'rfc_receptor
+        '
+        Me.rfc_receptor.HeaderText = "rfc_receptor"
+        Me.rfc_receptor.Name = "rfc_receptor"
+        Me.rfc_receptor.ReadOnly = True
+        '
+        'rs_receptor
+        '
+        Me.rs_receptor.HeaderText = "rs_receptor"
+        Me.rs_receptor.Name = "rs_receptor"
+        Me.rs_receptor.ReadOnly = True
+        '
+        'foliog
+        '
+        Me.foliog.HeaderText = "folio"
+        Me.foliog.Name = "foliog"
+        Me.foliog.ReadOnly = True
+        Me.foliog.Width = 60
+        '
+        'serieg
+        '
+        Me.serieg.HeaderText = "serie"
+        Me.serieg.Name = "serieg"
+        Me.serieg.ReadOnly = True
+        Me.serieg.Width = 50
+        '
+        'fechag
+        '
+        Me.fechag.HeaderText = "Fecha"
+        Me.fechag.Name = "fechag"
+        Me.fechag.ReadOnly = True
+        '
+        'cadenaarchivo
+        '
+        Me.cadenaarchivo.HeaderText = "Archivo Original"
+        Me.cadenaarchivo.Name = "cadenaarchivo"
+        Me.cadenaarchivo.ReadOnly = True
+        Me.cadenaarchivo.Width = 200
+        '
+        'version
+        '
+        Me.version.HeaderText = "version"
+        Me.version.Name = "version"
+        Me.version.ReadOnly = True
+        '
+        'UUID
+        '
+        Me.UUID.HeaderText = "UUID"
+        Me.UUID.Name = "UUID"
+        Me.UUID.ReadOnly = True
+        '
+        'noAprovacion
+        '
+        Me.noAprovacion.HeaderText = "noAprovacion"
+        Me.noAprovacion.Name = "noAprovacion"
+        Me.noAprovacion.ReadOnly = True
+        '
+        'Importe1
+        '
+        Me.Importe1.HeaderText = "Importe"
+        Me.Importe1.Name = "Importe1"
+        Me.Importe1.ReadOnly = True
+        '
+        'FolioRecepcion
+        '
+        Me.FolioRecepcion.HeaderText = "Folio Recepcion"
+        Me.FolioRecepcion.Name = "FolioRecepcion"
+        Me.FolioRecepcion.ReadOnly = True
+        Me.FolioRecepcion.Width = 150
+        '
+        'OrdenCompra
+        '
+        Me.OrdenCompra.HeaderText = "Orden de Compra"
+        Me.OrdenCompra.Name = "OrdenCompra"
+        Me.OrdenCompra.ReadOnly = True
+        Me.OrdenCompra.Width = 180
+        '
         'extraedatosxml
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
@@ -442,8 +456,16 @@ Partial Class extraedatosxml
     Friend WithEvents griddatosxml As System.Windows.Forms.DataGridView
     Friend WithEvents TabControl1 As System.Windows.Forms.TabControl
     Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents Button2 As System.Windows.Forms.Button
+    Friend WithEvents fecha1 As System.Windows.Forms.DateTimePicker
+    Friend WithEvents fecha2 As System.Windows.Forms.DateTimePicker
+    Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents Label8 As System.Windows.Forms.Label
+    Friend WithEvents filtrofecha As System.Windows.Forms.CheckBox
     Friend WithEvents DataGridViewTextBoxColumn1 As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents DataGridViewTextBoxColumn2 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents rfc_receptor As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents rs_receptor As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents foliog As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents serieg As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents fechag As System.Windows.Forms.DataGridViewTextBoxColumn
@@ -454,11 +476,5 @@ Partial Class extraedatosxml
     Friend WithEvents Importe1 As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents FolioRecepcion As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents OrdenCompra As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents Button2 As System.Windows.Forms.Button
-    Friend WithEvents fecha1 As System.Windows.Forms.DateTimePicker
-    Friend WithEvents fecha2 As System.Windows.Forms.DateTimePicker
-    Friend WithEvents Label4 As System.Windows.Forms.Label
-    Friend WithEvents Label8 As System.Windows.Forms.Label
-    Friend WithEvents filtrofecha As System.Windows.Forms.CheckBox
 
 End Class

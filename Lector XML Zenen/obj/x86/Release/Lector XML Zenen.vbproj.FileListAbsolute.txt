@@ -149,3 +149,7 @@ D:\ZENEN\DESARROLLOS\MERCADERIAS UTILERIAS\MIT 6 Y ZMMREPCON\Lector XML Zenen\Le
 D:\ZENEN\DESARROLLOS\MERCADERIAS UTILERIAS\MIT 6 Y ZMMREPCON\Lector XML Zenen\Lector XML Zenen\obj\x86\Release\Lector_XML_Zenen.extraedatosxml.resources
 D:\ZENEN\DESARROLLOS\MERCADERIAS UTILERIAS\MIT 6 Y ZMMREPCON\Lector XML Zenen\Lector XML Zenen\obj\x86\Release\Lector_XML_Zenen.Comparacionesxml.resources
 D:\ZENEN\DESARROLLOS\MERCADERIAS UTILERIAS\MIT 6 Y ZMMREPCON\Lector XML Zenen\Lector XML Zenen\obj\x86\Release\Lector XML Zenen.vbprojResolveAssemblyReference.cache
+D:\ZENEN\DESARROLLOS\MERCADERIASUTILERIAS\MIR6_ZMMREPCON\LectorXMLZenen\Lector XML Zenen\bin\Release\Mercaderias Utilerias CFDI.exe.config
+D:\ZENEN\DESARROLLOS\MERCADERIASUTILERIAS\MIR6_ZMMREPCON\LectorXMLZenen\Lector XML Zenen\obj\x86\Release\Mercaderias Utilerias CFDI.exe
+D:\ZENEN\DESARROLLOS\MERCADERIASUTILERIAS\MIR6_ZMMREPCON\LectorXMLZenen\Lector XML Zenen\obj\x86\Release\Mercaderias Utilerias CFDI.xml
+D:\ZENEN\DESARROLLOS\MERCADERIASUTILERIAS\MIR6_ZMMREPCON\LectorXMLZenen\Lector XML Zenen\obj\x86\Release\Mercaderias Utilerias CFDI.pdb
