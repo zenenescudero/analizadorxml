@@ -61,6 +61,18 @@ Partial Class Comparaciones
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label18 = New System.Windows.Forms.Label()
         Me.TextBox16 = New System.Windows.Forms.TextBox()
+        Me.TextBox18 = New System.Windows.Forms.TextBox()
+        Me.Label20 = New System.Windows.Forms.Label()
+        Me.TextBox19 = New System.Windows.Forms.TextBox()
+        Me.Label21 = New System.Windows.Forms.Label()
+        Me.TextBox20 = New System.Windows.Forms.TextBox()
+        Me.Label22 = New System.Windows.Forms.Label()
+        Me.TextBox21 = New System.Windows.Forms.TextBox()
+        Me.Label23 = New System.Windows.Forms.Label()
+        Me.TextBox22 = New System.Windows.Forms.TextBox()
+        Me.Label24 = New System.Windows.Forms.Label()
+        Me.TextBox23 = New System.Windows.Forms.TextBox()
+        Me.Label25 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.SuspendLayout()
@@ -153,6 +165,12 @@ Partial Class Comparaciones
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.OldLace
+        Me.Panel1.Controls.Add(Me.TextBox20)
+        Me.Panel1.Controls.Add(Me.Label22)
+        Me.Panel1.Controls.Add(Me.TextBox19)
+        Me.Panel1.Controls.Add(Me.Label21)
+        Me.Panel1.Controls.Add(Me.TextBox18)
+        Me.Panel1.Controls.Add(Me.Label20)
         Me.Panel1.Controls.Add(Me.TextBox15)
         Me.Panel1.Controls.Add(Me.Label17)
         Me.Panel1.Controls.Add(Me.TextBox13)
@@ -171,7 +189,7 @@ Partial Class Comparaciones
         Me.Panel1.Controls.Add(Me.Label4)
         Me.Panel1.Location = New System.Drawing.Point(12, 35)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(402, 287)
+        Me.Panel1.Size = New System.Drawing.Size(402, 361)
         Me.Panel1.TabIndex = 3
         '
         'TextBox15
@@ -241,6 +259,12 @@ Partial Class Comparaciones
         'Panel2
         '
         Me.Panel2.BackColor = System.Drawing.Color.OldLace
+        Me.Panel2.Controls.Add(Me.TextBox21)
+        Me.Panel2.Controls.Add(Me.Label23)
+        Me.Panel2.Controls.Add(Me.TextBox22)
+        Me.Panel2.Controls.Add(Me.Label24)
+        Me.Panel2.Controls.Add(Me.TextBox23)
+        Me.Panel2.Controls.Add(Me.Label25)
         Me.Panel2.Controls.Add(Me.TextBox17)
         Me.Panel2.Controls.Add(Me.Label19)
         Me.Panel2.Controls.Add(Me.TextBox14)
@@ -259,7 +283,7 @@ Partial Class Comparaciones
         Me.Panel2.Controls.Add(Me.Label10)
         Me.Panel2.Location = New System.Drawing.Point(423, 32)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(402, 290)
+        Me.Panel2.Size = New System.Drawing.Size(402, 364)
         Me.Panel2.TabIndex = 4
         '
         'TextBox17
@@ -404,7 +428,7 @@ Partial Class Comparaciones
         '
         Me.Label18.AutoSize = True
         Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label18.Location = New System.Drawing.Point(12, 346)
+        Me.Label18.Location = New System.Drawing.Point(12, 420)
         Me.Label18.Name = "Label18"
         Me.Label18.Size = New System.Drawing.Size(89, 18)
         Me.Label18.TabIndex = 6
@@ -413,19 +437,115 @@ Partial Class Comparaciones
         'TextBox16
         '
         Me.TextBox16.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox16.Location = New System.Drawing.Point(96, 328)
+        Me.TextBox16.Location = New System.Drawing.Point(105, 402)
         Me.TextBox16.Multiline = True
         Me.TextBox16.Name = "TextBox16"
         Me.TextBox16.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.TextBox16.Size = New System.Drawing.Size(729, 49)
+        Me.TextBox16.Size = New System.Drawing.Size(720, 49)
         Me.TextBox16.TabIndex = 7
+        '
+        'TextBox18
+        '
+        Me.TextBox18.Location = New System.Drawing.Point(110, 286)
+        Me.TextBox18.Name = "TextBox18"
+        Me.TextBox18.Size = New System.Drawing.Size(124, 20)
+        Me.TextBox18.TabIndex = 20
+        '
+        'Label20
+        '
+        Me.Label20.AutoSize = True
+        Me.Label20.Location = New System.Drawing.Point(9, 290)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(95, 13)
+        Me.Label20.TabIndex = 19
+        Me.Label20.Text = "FECHA FACTURA"
+        '
+        'TextBox19
+        '
+        Me.TextBox19.Location = New System.Drawing.Point(110, 310)
+        Me.TextBox19.Name = "TextBox19"
+        Me.TextBox19.Size = New System.Drawing.Size(124, 20)
+        Me.TextBox19.TabIndex = 22
+        '
+        'Label21
+        '
+        Me.Label21.AutoSize = True
+        Me.Label21.Location = New System.Drawing.Point(9, 314)
+        Me.Label21.Name = "Label21"
+        Me.Label21.Size = New System.Drawing.Size(86, 13)
+        Me.Label21.TabIndex = 21
+        Me.Label21.Text = "FECHA TIMBRE"
+        '
+        'TextBox20
+        '
+        Me.TextBox20.Location = New System.Drawing.Point(123, 333)
+        Me.TextBox20.Name = "TextBox20"
+        Me.TextBox20.Size = New System.Drawing.Size(124, 20)
+        Me.TextBox20.TabIndex = 24
+        '
+        'Label22
+        '
+        Me.Label22.AutoSize = True
+        Me.Label22.Location = New System.Drawing.Point(10, 340)
+        Me.Label22.Name = "Label22"
+        Me.Label22.Size = New System.Drawing.Size(107, 13)
+        Me.Label22.TabIndex = 23
+        Me.Label22.Text = "FECHA RECEPCION"
+        '
+        'TextBox21
+        '
+        Me.TextBox21.Location = New System.Drawing.Point(128, 335)
+        Me.TextBox21.Name = "TextBox21"
+        Me.TextBox21.Size = New System.Drawing.Size(124, 20)
+        Me.TextBox21.TabIndex = 30
+        '
+        'Label23
+        '
+        Me.Label23.AutoSize = True
+        Me.Label23.Location = New System.Drawing.Point(15, 342)
+        Me.Label23.Name = "Label23"
+        Me.Label23.Size = New System.Drawing.Size(97, 13)
+        Me.Label23.TabIndex = 29
+        Me.Label23.Text = "FECHA ENTREGA"
+        '
+        'TextBox22
+        '
+        Me.TextBox22.Location = New System.Drawing.Point(115, 312)
+        Me.TextBox22.Name = "TextBox22"
+        Me.TextBox22.Size = New System.Drawing.Size(124, 20)
+        Me.TextBox22.TabIndex = 28
+        '
+        'Label24
+        '
+        Me.Label24.AutoSize = True
+        Me.Label24.Location = New System.Drawing.Point(14, 316)
+        Me.Label24.Name = "Label24"
+        Me.Label24.Size = New System.Drawing.Size(86, 13)
+        Me.Label24.TabIndex = 27
+        Me.Label24.Text = "FECHA TIMBRE"
+        '
+        'TextBox23
+        '
+        Me.TextBox23.Location = New System.Drawing.Point(122, 286)
+        Me.TextBox23.Name = "TextBox23"
+        Me.TextBox23.Size = New System.Drawing.Size(124, 20)
+        Me.TextBox23.TabIndex = 26
+        '
+        'Label25
+        '
+        Me.Label25.AutoSize = True
+        Me.Label25.Location = New System.Drawing.Point(14, 292)
+        Me.Label25.Name = "Label25"
+        Me.Label25.Size = New System.Drawing.Size(102, 13)
+        Me.Label25.TabIndex = 25
+        Me.Label25.Text = "FECHA CONTABLE"
         '
         'Comparaciones
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
-        Me.ClientSize = New System.Drawing.Size(834, 397)
+        Me.ClientSize = New System.Drawing.Size(834, 454)
         Me.Controls.Add(Me.TextBox16)
         Me.Controls.Add(Me.Label18)
         Me.Controls.Add(Me.Button1)
@@ -484,4 +604,16 @@ Partial Class Comparaciones
     Friend WithEvents TextBox16 As System.Windows.Forms.TextBox
     Friend WithEvents TextBox17 As System.Windows.Forms.TextBox
     Friend WithEvents Label19 As System.Windows.Forms.Label
+    Friend WithEvents TextBox20 As System.Windows.Forms.TextBox
+    Friend WithEvents Label22 As System.Windows.Forms.Label
+    Friend WithEvents TextBox19 As System.Windows.Forms.TextBox
+    Friend WithEvents Label21 As System.Windows.Forms.Label
+    Friend WithEvents TextBox18 As System.Windows.Forms.TextBox
+    Friend WithEvents Label20 As System.Windows.Forms.Label
+    Friend WithEvents TextBox21 As System.Windows.Forms.TextBox
+    Friend WithEvents Label23 As System.Windows.Forms.Label
+    Friend WithEvents TextBox22 As System.Windows.Forms.TextBox
+    Friend WithEvents Label24 As System.Windows.Forms.Label
+    Friend WithEvents TextBox23 As System.Windows.Forms.TextBox
+    Friend WithEvents Label25 As System.Windows.Forms.Label
 End Class

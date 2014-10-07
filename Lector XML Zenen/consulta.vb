@@ -312,6 +312,15 @@ Public Class consulta
             Comparaciones.TextBox13.Text = gridtabla.Item(gridtabla.Columns("SUCURSAL").Index, gridtabla.CurrentRow.Index).Value
             Comparaciones.TextBox15.Text = gridtabla.Item(gridtabla.Columns("ORDEN_RECIBO").Index, gridtabla.CurrentRow.Index).Value
             Comparaciones.TextBox16.Text = gridtabla.Item(gridtabla.Columns("DESCRIPCION_ERROR").Index, gridtabla.CurrentRow.Index).Value
+            Try
+                Comparaciones.TextBox18.Text = gridtabla.Item(gridtabla.Columns("FECHA_FACTURA").Index, gridtabla.CurrentRow.Index).Value
+                Comparaciones.TextBox19.Text = gridtabla.Item(gridtabla.Columns("FECHA_TIMBRADO").Index, gridtabla.CurrentRow.Index).Value
+                Comparaciones.TextBox20.Text = gridtabla.Item(gridtabla.Columns("FECHA_RECEPCION").Index, gridtabla.CurrentRow.Index).Value
+
+            Catch ex As Exception
+
+            End Try
+            
         Catch ex As Exception
         End Try
         Try
@@ -324,6 +333,15 @@ Public Class consulta
             Comparaciones.TextBox11.Text = gridtabla.Item(gridtabla.Columns("OC").Index, gridtabla.CurrentRow.Index).Value
             Comparaciones.TextBox14.Text = gridtabla.Item(gridtabla.Columns("SUC").Index, gridtabla.CurrentRow.Index).Value
             Comparaciones.TextBox17.Text = gridtabla.Item(gridtabla.Columns("NO_DOCUMENTO").Index, gridtabla.CurrentRow.Index).Value
+            Try
+                Comparaciones.TextBox21.Text = gridtabla.Item(gridtabla.Columns("FECHA_ENTREGA").Index, gridtabla.CurrentRow.Index).Value
+                Comparaciones.TextBox22.Text = gridtabla.Item(gridtabla.Columns("Fecha_Timbrado1").Index, gridtabla.CurrentRow.Index).Value
+                Comparaciones.TextBox23.Text = gridtabla.Item(gridtabla.Columns("FECHA_CONTABLE").Index, gridtabla.CurrentRow.Index).Value
+
+            Catch ex As Exception
+
+            End Try
+            
         Catch ex As Exception
         End Try
 

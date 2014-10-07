@@ -30,6 +30,11 @@ estos datos se pueden guardar en la base de datos y cargar informacion de las ta
 
 * UUID
 
+-----------------------------------------------
+MODIFICACION 7 DE OCTUBRE 2014.
+
+SE AGREGO EN EL COMPARATIVO FECHAS DE ENTREGA, TIMBRADO Y CONTABLE
+
 Desarrollo realizado por Zenen De La Cruz Escudero
 Email: Zenen.dc.escudero@gmail.com
 Site Web: www.escuderocfdi.com 
